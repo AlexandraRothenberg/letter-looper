@@ -1,5 +1,6 @@
-var t = prompt('Enter a Letter.');
+var answer = prompt("Enter a Letter");
 
-for (t = 0; t < 10; t++) {
-  document.write(t);
+for (counter = 0; counter < 11; counter++) {
+  answer = answer;
+  document.write(answer + "<br>");
 }
